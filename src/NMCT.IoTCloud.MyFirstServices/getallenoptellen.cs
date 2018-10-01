@@ -19,7 +19,7 @@ namespace NMCT.IoTCloud.MyFirstServices
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
             return new OkObjectResult(number1 + number2);
-            //tesddcsq
+          
             //string name = req.Query["name"];
 
             //string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
